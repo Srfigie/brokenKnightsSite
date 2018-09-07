@@ -321,7 +321,7 @@
 	{
 		overflow: hidden;
 		padding: 5em 0em;
-		background: #B03500 url(images/overlay.png) repeat;
+		background: rgb(66, 65, 55) url(images/overlay.png) repeat;
 	}
 
 	#header
