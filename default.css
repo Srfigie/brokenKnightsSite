@@ -7,7 +7,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #00838C;
+		background: rgb(51, 73, 75);
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 400;
@@ -447,7 +447,7 @@
 	{
 		overflow: hidden;
 		padding: 8em 0em;
-		background: #939E77;
+		background: rgb(148, 0, 0);
 	}
 
 /*********************************************************************************/
