@@ -7,7 +7,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: rgb(51, 73, 75);
+		background: #000000;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 400;
@@ -320,8 +320,8 @@
 	#header-wrapper
 	{
 		overflow: hidden;
-		padding: 5em 0em;
-		background: rgb(66, 65, 55) url(images/overlay.png) repeat;
+		padding: 1em 0em;
+		background: rgb(214, 216, 217) url(images/overlay.png) repeat;
 	}
 
 	#header
@@ -336,17 +336,20 @@
 	{
 		padding: 5em 0em;
 		text-align: center;
+		
 	}
 	
 	#logo h1
 	{
 		font-size: 3.5em;
+		
 	}
 	
 	#logo a
 	{
 		text-decoration: none;
 		color: #FFF;
+		color: #be1e2d;
 	}
 	
 	#logo span
@@ -428,12 +431,12 @@
 
 	#wrapper1
 	{
-		background: #242424;
+		background: #0E0C0C;
 	}
 
 	#wrapper2
 	{
-		background: #EDEDED;
+		background: #D6D8D9;
 	}
 
 	#wrapper3
@@ -447,7 +450,7 @@
 	{
 		overflow: hidden;
 		padding: 8em 0em;
-		background: rgb(148, 0, 0);
+		background: #be1e2d;
 	}
 
 /*********************************************************************************/
