@@ -478,7 +478,7 @@
 		overflow: hidden;
 		padding: 8em 0em;
 		text-align: center;
-		color: rgba(255, 255, 255, 0.918);
+		color: rgba(255, 255, 255, 0.589);
 	}
 	
 	#welcome .content
@@ -530,7 +530,7 @@
 	
 	#footer .title span
 	{
-		color: rgba(255,255,255,0.4);
+		color:  rgba(255, 255, 255, 0.589);
 	}
 
 /*********************************************************************************/
