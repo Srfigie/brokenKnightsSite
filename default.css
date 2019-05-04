@@ -23,7 +23,7 @@
 	
 	p, ol, ul
 	{
-		margin-top: 0;
+		
 	}
 	
 	ol, ul
@@ -319,13 +319,15 @@
 
 	#header-wrapper
 	{
+		width: 100%;
 		overflow: hidden;
-		padding: 1em 0em;
+		padding-top:1rem;
 		background: rgb(214, 216, 217) url(images/overlay.png) repeat;
 	}
 
 	#header
 	{
+		width: 100%;
 	}
 
 /*********************************************************************************/
@@ -370,6 +372,14 @@
 		font-size: 4em;
 		color: rgba(255,255,255,1);
 	}
+
+	#logo img
+	{
+		max-width: 700;
+		max-height: 600;
+		size: auto;
+		margin: auto;
+	}
 	
 	
 
@@ -377,15 +387,20 @@
 /* Menu                                                                          */
 /*********************************************************************************/
 
+
 	#menu
 	{
-		width: 80%;
-		margin: 0px auto;
+		width: 100%;
+		background-color:  #333333;
+		position: fixed;
+		top:0;
+		
 	}
 	
 	#menu ul
 	{
 		text-align: center;
+		margin: 0px;
 	}
 	
 	#menu li
@@ -409,6 +424,7 @@
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
+		background-color:  #4e4e4e;
 	}
 	
 	#menu .current_page_item a
