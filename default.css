@@ -478,7 +478,7 @@
 		overflow: hidden;
 		padding: 8em 0em;
 		text-align: center;
-		color: rgba(255,255,255,0.3);
+		color: rgba(255, 255, 255, 0.918);
 	}
 	
 	#welcome .content
@@ -491,7 +491,7 @@
 	#welcome a,
 	#welcome strong
 	{
-		color: rgba(255,255,255,0.6);
+		color:  rgba(255, 255, 255, 0.918);
 	}
 
 /*********************************************************************************/
