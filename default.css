@@ -55,9 +55,17 @@
 	.container
 	{
 		margin: 0px auto;
-		width: 1200px;
+		/*width: 1200px;*/
+	}
+
+	.center-content {
+		text-align: center;
+		padding-bottom: 4em;
 	}
 	
+	.page-body {
+		margin-top:4rem;
+	}
 
 /*********************************************************************************/
 /* Form Style                                                                    */
@@ -313,6 +321,14 @@
 		color: #6F6F6F;
 	}
 
+	.title-dark h2
+	{
+		font-size: 2.8em;
+		color: rgba(0,0,0,0.8);
+		text-align: center;
+	}
+	
+
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
@@ -394,7 +410,7 @@
 		background-color:  #333333;
 		position: fixed;
 		top:0;
-		
+		max-height: 4rem;
 	}
 	
 	#menu ul
@@ -429,7 +445,7 @@
 	
 	#menu .current_page_item a
 	{
-		color: #FFF;
+		background-color: #be1e2d;
 	}
 	
 
@@ -508,6 +524,7 @@
 
 	#content
 	{
+		padding-top:8em;
 	}
 
 /*********************************************************************************/
