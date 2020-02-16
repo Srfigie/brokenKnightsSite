@@ -139,7 +139,13 @@ Released   : 20131006
 	</div>
 </div>
 <div id="copyright">
-	<p>&copy; 2018. Broken Knights. All rights reserved. </p>
+	<p>&copy; 
+		<span id="date">
+			<script>
+				var d = new Date();
+				var e = document.getElementById("date").innerText = d.getFullYear();
+			</script>
+		</span> Broken Knights. All rights reserved. </p>
 </div>
 </body>
 </html>
